@@ -33,7 +33,7 @@ cc.UIInterfaceOrientationPortraitUpsideDown = 180;
 cc.UIInterfaceOrientationPortrait = 0;
 
 /**
- * he device accelerometer reports values for each axis in units of g-force
+ * The device accelerometer reports values for each axis in units of g-force
  */
 cc.Acceleration = function (x, y, z, timestamp) {
     this.x = x || 0;
